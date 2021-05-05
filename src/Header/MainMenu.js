@@ -3,10 +3,10 @@ import React from 'react'
 export const MainMenu = () => {
     return (
         <ul>
-            <li>Рецепты</li>
-            <li>Статьи</li>
-            <li>Кухни народов</li>
-            <li>Отзывы</li>
+            <li><a href="">Рецепты</a></li>
+            <li><a href="">Статьи</a></li>
+            <li><a href="">Кухни народов</a></li>
+            <li><a href="">Отзывы</a></li>
         </ul>
     )
 }

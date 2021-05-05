@@ -18,5 +18,15 @@ code {
   align-items: center;
   padding: 2rem;
   background-color: #ccc;
-  text-decoration: none;
 }
+.header ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5px;
+  text-decoration: none;
+  list-style: none;
+}
+.header a {
+  padding: 0 5px;
+}
+
