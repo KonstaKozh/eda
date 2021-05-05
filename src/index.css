@@ -13,8 +13,10 @@ code {
 }
 
 .header {
-  padding-top: 5rem;
-  background-color: #fff;
-  margin: 0 auto;
-  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  background-color: #ccc;
+  text-decoration: none;
 }
