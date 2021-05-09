@@ -1,5 +1,8 @@
+* {box-sizing: border-box;}
+
 body {
   margin: 0;
+  padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -12,14 +15,17 @@ code {
     monospace;
 }
 
-.header {
+.header-wrapper {
+  padding: 2rem;
+  background-color: lightgreen;
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
-  padding: 2rem;
-  background-color: #ccc;
 }
-.header ul {
+.navigation {
   display: flex;
   justify-content: space-between;
   padding: 0 5px;
@@ -28,5 +34,43 @@ code {
 }
 .header a {
   padding: 0 5px;
+  text-decoration: none;
+}
+.search-form {
+  position: relative;
+  width: 200px;
+}
+
+.form-btn {
+  position: absolute;
+  top: 50%;
+  right: 4px;
+  width: 21px;
+  height: 21px;
+  background: url(search.svg) center no-repeat;
+  padding: 0;
+  transform: translateY(-50%);
+  border: none;
+}
+
+.searchInput {
+width: 100%;
+  height: 32px;
+  border: none;
+  outline: none;
+  padding-right: 28px;
+  padding-left: 4px;
+  text-overflow: ellipsis;
+}
+/*.form-btn:before {*/
+/*  content: url(search-icon.png);*/
+/*}*/
+
+.logo-image {
+  fill: black;
+}
+
+.logo-image:hover {
+  fill: red;
 }
 

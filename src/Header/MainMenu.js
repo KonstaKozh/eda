@@ -2,7 +2,7 @@ import React from 'react'
 
 export const MainMenu = () => {
     return (
-        <ul>
+        <ul className='navigation'>
             <li><a href="">Рецепты</a></li>
             <li><a href="">Статьи</a></li>
             <li><a href="">Кухни народов</a></li>
