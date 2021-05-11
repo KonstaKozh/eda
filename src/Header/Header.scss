@@ -15,9 +15,10 @@
   text-decoration: none;
   list-style: none;
 }
-.header a {
+a {
   padding: 0 5px;
   text-decoration: none;
+  color: black;
 }
 .search-form {
   position: relative;
@@ -28,8 +29,8 @@
   position: absolute;
   top: 50%;
   right: 4px;
-  width: 21px;
-  height: 21px;
+  width: 20px;
+  height: 20px;
   background: url(search.svg) center no-repeat;
   padding: 0;
   transform: translateY(-50%);
