@@ -1,5 +1,5 @@
 import React from 'react'
-import {RecipeItem} from "./RecipeItem";
+import {RecipeItem} from "./RecipeItem"
 
 export const RecipeList = () => {
     const i = {title: 'title', imgSrc: 'imgSrc1', description: 'description', author: 'author', date: 'date'}

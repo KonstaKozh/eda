@@ -1,7 +1,8 @@
 import React from 'react'
-import {Search} from "./Search";
-import {MainMenu} from "./MainMenu";
-import {Icon} from "./Icon";
+import {Search} from "./Search"
+import {MainMenu} from "./MainMenu"
+import {Icon} from "./Icon"
+import './Header.scss'
 
 export const Header = () => (
     <div className='header-wrapper'>
